@@ -1,8 +1,6 @@
+# 11. Ejercicio.
+# Dibuja un ordinograma de un programa que muestre los números pares comprendidos
+# entre el 1 y el 200. Para ello utiliza un contador y suma de 2 en 2.
 
-num1 = int(input("Introduce un numero: "))
-num2 = int(input("Introduce otro numero: "))
-
-if num1 > num2:
-    print(f"{num1} es mayor que {num2}")
-else:
-    print(f"{num2} es mayor que {num1}")
+for i in range(0, 202, 2):
+    print(i)

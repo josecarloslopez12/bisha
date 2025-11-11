@@ -2,7 +2,6 @@
 # Escriba un programa que lea dos números, calcule y muestre el valor de sus suma, resta,
 # producto y división.
 
-
 num1 = int(input("Introduce un numero: "))
 num2 = int(input("Introduce otro numero: "))
 

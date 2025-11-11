@@ -1,9 +1,8 @@
+# 13. Ejercicio.
+# Dibuja un ordinograma de un programa que muestre los números desde el 1 hasta el
+# número N que se introducirá por teclado.
 
+num = int(input("Introduce un numerillo: "))
 
-num1 = int(input("Introduce un numero: "))
-num2 = int(input("Introduce otro numero: "))
-
-if num1 > num2:
-    print(f"{num1}, {num2}")
-else:
-    print(f"{num2}, {num1}")
+for i in range(1, num + 1):
+    print(i)

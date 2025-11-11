@@ -1,8 +1,7 @@
+# 12. Ejercicio.
+# Dibuja un ordinograma de un programa que muestre los números pares comprendidos
+# entre el 1 y el 200. Esta vez utiliza un contador sumando de 1 en 1
 
-
-num = int(input("Introduce un numero: "))
-
-if num >= 0:
-    print("El numero es positivo")
-else:
-    print("El numero es negativo")
+for i in range(0, 202):
+    if i % 2 == 0:
+        print(i)
