@@ -1,11 +1,16 @@
+# 14. Ejercicio.
+# Dibuja un ordinograma que lea dos números, calcule y muestre el valor de sus suma, resta,
+# producto y división (Ten en cuenta la división por cero).
 
 
 num1 = int(input("Introduce un numero: "))
 num2 = int(input("Introduce otro numero: "))
 
-if num1 > num2:
-    print(f"{num1} es mayor que {num2}")
-elif num2 > num1:
-    print(f"{num2} es mayor que {num1}")
+
+print("Suma: ", num1+num2)
+print("Resta: ", num1-num2)
+print("Multiplicación: ", num1*num2)
+if num1 == 0 or num2 == 0:
+    print("Error, no se puede dividir entre 0")
 else:
-    print(f"{num1} y {num2} son iguales")
+    print("División: ", num1/num2)
